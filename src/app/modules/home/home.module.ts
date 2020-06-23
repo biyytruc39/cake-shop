@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { AppRoutingModule } from './home-routing.module';
 import { ProductListComponent } from './components/product-list/product-list.component';
 import { ProductCardComponent } from './components/product-card/product-card.component';
 import { FilterComponent } from './components/filter/filter.component';
@@ -12,7 +13,8 @@ import { ShoppingCartComponent } from './components/shopping-cart/shopping-cart.
 @NgModule({
   declarations: [ProductListComponent, ProductCardComponent, FilterComponent, CartComponent, CartItemComponent, ShoppingCartComponent],
   imports: [
-    CommonModule
+    CommonModule,
+    AppRoutingModule
   ]
 })
 export class HomeModule { }
