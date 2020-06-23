@@ -7,7 +7,11 @@ import { FooterComponent } from './components/footer/footer.component';
 
 
 @NgModule({
-  declarations: [HeaderComponent, NavComponent, FooterComponent],
+  declarations: [
+    HeaderComponent,
+    NavComponent,
+    FooterComponent
+  ],
   imports: [
     CommonModule
   ]
