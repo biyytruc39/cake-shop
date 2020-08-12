@@ -1,10 +1,10 @@
 <div class="card mb-4 box-shadow">
   <img class="card-img-top" src="https://i.pinimg.com/originals/5b/bd/95/5bbd958e06c451a08833678595e03ee1.jpg">
   <div class="card-body">
-    <div class="card-text">Chocolate cake</div>
+    <div class="card-text">{{ productItem.name }}</div>
   </div>
   <div class="card-footer d-flex justify-content-between">
-    <small class="text-muted">{{ 10 | currency: 'USD' }}</small>
+    <small class="text-muted">{{ productItem.price | currency: 'USD' }}</small>
     <i class="fa fa-shopping-cart" aria-hidden="true"></i>
   </div>
 </div>
